@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/llorando.css">
+    <meta name="description" content="Llorando Estrellas es un pequeño emprendimiento de aros, nuestros aros son originales cada uno con estilos y tematicas distintas">
+    <meta name="keywords" content="Llorando Estrellas, diseños de aros originales, aros, donde comprar aros">
+    <link rel="stylesheet" href="../css3/pruebacss.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Llorando Estrellas - Catalogo</title>
 </head>
 <body>
     <div class="container">
@@ -64,70 +67,70 @@
         </header>
         <!-- falta grilla-->
         <main class="main_catalogo">
-            <h1 class="animate__flipInX">Catalogo</h1>
+            <h1 class="animate_animated animate__flipInX">Catalogo</h1>
                 <p>Eligi tu par favorito</p>
-            <div id="grilla">  
+            <div id="grilla" data-aos="flip-right">  
                 <div class="producto">
                     <h2>Plumas</h2>
                     <h3>Arco de oreja de plumas</h3>
                     <img src="../multimedia/plumas.jpg" alt="">
                     <h6>Mira este increible diseño y unico a un precio increible</h6>
                 </div>      
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Elegante</h2>
                     <h3>Aro de cadena extra largo</h3>
                     <img src="../multimedia/gala.jpg" alt="">
                     <h6>Para las atrevidas que no tienen miedo de resaltar en una simple gala</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Rock</h2>
                     <h3>Calaveritas</h3>
                     <img src="../multimedia/rock.jpg" alt="" >
                     <h6>Para los amantes del rock este par es ideal para cualquier ocacion</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Personajes</h2>
                     <h3>Gravity Falls: Bill</h3>
                     <img src="../multimedia/bill.jpg" alt="">
                     <h6>Este personaje que les hizo vivir un verano inolvidable a los gemelos misterio</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Otaku</h2>
                     <h3>Demons Layer</h3>
                     <img src="../multimedia/otaku.jpg" alt="">
                     <h6>Obten tus aritos de la exitosa serie y hace juego con tu capa</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Galactico</h2>
                     <h3>Planeta</h3>
                     <img src="../multimedia/planeta.jpg" alt="">
                     <h6>Hay vida fuera de nuestro planeta, preparate para su visita</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Aesthetic</h2>
                     <h3>Alfiler</h3>
                     <img src="../multimedia/aes.jpg" alt="">
                     <h6>Este estilo no para, la moda no solo es ropa, los accesorios tambien cuentan</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Indie Aesthetic</h2>
                     <h3>Ositos</h3>
                     <img src="../multimedia/indie a.jpg" alt="">
                     <h6>Otro tipo de moda, con mas colores, mas a legre y en este caso mas deliciosa</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Gotico</h2>
                     <h3>Corazones</h3>
                     <img src="../multimedia/gotico.jpg" alt="">
                     <h6>El iconico corazon es una forma falsa, usa estos aros plateados que van en conjunto con el negro</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Video Juegos</h2>
                     <h3>Control</h3>
                     <img src="../multimedia/juego.jpg" alt="">
                     <h6>Lleva con vos tu alma gameplayer, simplemente algo indispensable</h6>
                 </div>
-                <div class="producto">
+                <div class="producto" data-aos="flip-right">
                     <h2>Superheroes</h2>
                     <h3>Loki</h3>
                     <img src="../multimedia/loki.jpg" alt="">
@@ -144,5 +147,9 @@
             </ul>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
